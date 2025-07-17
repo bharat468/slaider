@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+body
+{
+    background-color: rgb(48, 0, 39);
+    height: 80vh;
+}
+
+#wraipper
+{
+    width: 80%;
+    height: 400px;
+    background-color: wheat;
+    margin: 90px auto 0 ;
+     
+}
+
+.box
+{
+    width: 50%;
+    height: 200px;
+    background-color: wheat;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainbox
+{
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+
+
+.mainbox1
+{
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+
+.slaiderbox button
+{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(48, 0, 39) ;
+    text-align: center;
+    color: wheat;
+    /* padding: 8px; */
+    border-radius: 12px;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.644);
+    transition: all 2s;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+    overflow: hidden;
+
+    
+}
+
+
+
+
+.slaiderbox button::before{
+    content: "";  
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: -50%;
+    top: 0;
+    background-color: darkgreen ;
+    z-index: -1;
+    transition: all 1s;
+
+}
+
+.slaiderbox button:hover::before{
+    
+    left: 0;
+
+}
+
+.slaiderbox button::after{
+    content: "";  
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: -50%;
+    top: 0;
+    background-color: darkgreen;
+    z-index: -1;
+    transition: all 1s;
+
+}
+
+.slaiderbox button:hover::after{
+    
+    right: 0;
+
+}
+
+
+
+
+
+.slaiderbox1 button
+{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(48, 0, 39) ;
+    text-align: center;
+    color: wheat;
+    /* padding: 8px; */
+    border-radius: 12px;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.644);
+    transition: all 2s;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+    overflow: hidden;
+
+}
+
+.slaiderbox1 button::before{
+    content: "";  
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0%;
+    bottom: -90%;
+    background-color: darkgreen ;
+    z-index: -1;
+    transition: all 1s;
+
+}
+
+.slaiderbox1 button:hover::before{
+    
+    bottom: 0;
+
+}
+
+
+.slaiderbox2 button
+{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(48, 0, 39) ;
+    text-align: center;
+    color: wheat;
+    /* padding: 8px; */
+    border-radius: 12px;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.644);
+    transition: all 2s;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.slaiderbox2 button::before
+{
+    content: "";
+    height: 100%;
+    box-shadow: 3px 3px 4px 3px greenyellow;
+    position: absolute;
+    left: -15%;
+    top: 0;
+    transform: rotate(20deg);
+    transition: all .5s linear;
+    z-index: -1;
+    
+}
+
+.slaiderbox2 button:hover::before
+{
+    left: 115%;
+}
+
+
+.slaiderbox3 button
+{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(48, 0, 39) ;
+    text-align: center;
+    color: wheat;
+    /* padding: 8px; */
+    border-radius: 12px;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.644);
+    transition: all 2s;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.slaiderbox3 button::before
+{
+    content: "";
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    left: -220%;
+    top: -410%;
+    background-color: darkorange;
+    z-index: -1;
+    transition: all 2s;
+}
+
+.slaiderbox3 button:hover::before
+{
+    transform: scale(4);
+}
+
+
+
+.small h3
+{
+    text-align: center;
+    margin: 5px;
+}
