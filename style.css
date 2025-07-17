@@ -7,8 +7,8 @@
 
 body
 {
-    background-color: rgb(48, 0, 39);
-    height: 80vh;
+    background-image: linear-gradient(red,blue);
+    height: 85vh;
 }
 
 #wraipper
@@ -211,7 +211,7 @@ body
     position: absolute;
     left: -220%;
     top: -410%;
-    background-color: darkorange;
+    background-image: linear-gradient(orange 80%, blue 40%);
     z-index: -1;
     transition: all 2s;
 }
