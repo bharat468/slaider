@@ -6,8 +6,8 @@
 }
 
 body
-{
-    background-image: linear-gradient(to right, #FF894F,#ffd3d3);
+{  
+    background-image: linear-gradient(to right, red,orange,green,blue);
     height: 85vh;
 }
 
@@ -24,7 +24,7 @@ body
 {
     width: 50%;
     height: 200px;
-    background-color: wheat;
+    background-image: linear-gradient(to right, red,orange,blue);
     border: 2px solid black;
     display: flex;
     align-items: center;
@@ -50,9 +50,9 @@ body
 {
     width: 100px;
     height: 40px;
-    background-color: rgb(48, 0, 39) ;
+    background-color: wheat;
     text-align: center;
-    color: wheat;
+    color: darkblue;
     /* padding: 8px; */
     border-radius: 12px;
     box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.644);
@@ -87,6 +87,22 @@ body
 
 }
 
+.slaiderbox button:hover{
+    color: bisque;
+    font-weight: 600;
+}
+
+.slaiderbox1 button:hover{
+    color: bisque;
+    font-weight: 600;
+}
+
+
+
+.slaiderbox3 button:hover{
+    color: bisque;
+    font-weight: 600;
+}
 .slaiderbox button::after{
     content: "";  
     width: 50%;
@@ -114,9 +130,7 @@ body
 {
     width: 100px;
     height: 40px;
-    background-color: rgb(48, 0, 39) ;
     text-align: center;
-    color: wheat;
     /* padding: 8px; */
     border-radius: 12px;
     box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.644);
@@ -125,6 +139,8 @@ body
     z-index: 2;
     cursor: pointer;
     overflow: hidden;
+    background-color: wheat;
+    color: darkblue;
 
 }
 
@@ -138,6 +154,7 @@ body
     background-image: linear-gradient(red, blue) ;
     z-index: -1;
     transition: all 1s;
+    
 
 }
 
@@ -152,10 +169,8 @@ body
 {
     width: 100px;
     height: 40px;
-    background-color: rgb(48, 0, 39) ;
     text-align: center;
-    color: wheat;
-    /* padding: 8px; */
+     /* padding: 8px; */
     border-radius: 12px;
     box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.644);
     transition: all 2s;
@@ -163,13 +178,15 @@ body
     z-index: 2;
     cursor: pointer;
     overflow: hidden;
+    background-color: wheat;
+    color: darkblue;
 }
 
 .slaiderbox2 button::before
 {
     content: "";
     height: 100%;
-    box-shadow: 3px 3px 4px 3px greenyellow;
+    box-shadow: 3px 3px 4px 3px red;
     position: absolute;
     left: -15%;
     top: 0;
@@ -189,9 +206,7 @@ body
 {
     width: 100px;
     height: 40px;
-    background-color: rgb(48, 0, 39) ;
     text-align: center;
-    color: wheat;
     /* padding: 8px; */
     border-radius: 12px;
     box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.644);
@@ -200,6 +215,8 @@ body
     z-index: 2;
     cursor: pointer;
     overflow: hidden;
+    background-color: wheat;
+    color: darkblue;
 }
 
 .slaiderbox3 button::before
