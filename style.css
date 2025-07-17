@@ -7,7 +7,7 @@
 
 body
 {
-    background-image: linear-gradient(red,blue);
+    background-image: linear-gradient(to right, #FF894F,#ffd3d3);
     height: 85vh;
 }
 
@@ -75,7 +75,7 @@ body
     position: absolute;
     left: -50%;
     top: 0;
-    background-color: darkgreen ;
+    background-image: linear-gradient(to left, red, blue);
     z-index: -1;
     transition: all 1s;
 
@@ -93,8 +93,8 @@ body
     height: 100%;
     position: absolute;
     right: -50%;
+    background-image: linear-gradient(to right, red, blue);
     top: 0;
-    background-color: darkgreen;
     z-index: -1;
     transition: all 1s;
 
@@ -135,7 +135,7 @@ body
     position: absolute;
     left: 0%;
     bottom: -90%;
-    background-color: darkgreen ;
+    background-image: linear-gradient(red, blue) ;
     z-index: -1;
     transition: all 1s;
 
@@ -211,7 +211,7 @@ body
     position: absolute;
     left: -220%;
     top: -410%;
-    background-image: linear-gradient(orange 80%, blue 40%);
+    background-image: linear-gradient(to right, red 60%, greenyellow);
     z-index: -1;
     transition: all 2s;
 }
@@ -219,6 +219,7 @@ body
 .slaiderbox3 button:hover::before
 {
     transform: scale(4);
+    /* background-image: linear-gradient(red blue); */
 }
 
 
